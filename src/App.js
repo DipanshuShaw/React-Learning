@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Greet from './components/greet'
+import Box from './components/box';
 
 function App() {
   return (
@@ -20,11 +21,19 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-    // <p>
-    //   <Greet></Greet>
-    //   <img src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg" alt="React-Image"></img>
-    // </p>
-    <p></p>
+    <p>
+      <Greet></Greet>
+      <img src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg" alt="React-Image"></img>
+      <Box></Box>
+      <nav>
+        <ul>
+          <li className='list'><a className='link'>Home</a></li>
+          <li className='list'><a className='link'>About Us</a></li>
+          <li className='list'><a className='link'>Blog</a></li>
+          <li className='list'><a className='link'>Contact</a></li>
+        </ul>
+      </nav>
+    </p>
   );
 }
 
