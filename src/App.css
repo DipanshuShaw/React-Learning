@@ -38,6 +38,13 @@
 }
 
 
+.heading{
+  font-size: 1.5rem;
+  display: inline-block;
+  padding-inline-start: 2rem;
+  font-weight: 600;
+}
+
 /* Made by User */
 .link{
   color: blue;
@@ -46,8 +53,12 @@
 
 .list{
   list-style: none;
-  padding: 0.75rem 1rem;
+  padding: 0 1rem;
 }
 ul{
   display: flex;
+  float: right;
+  margin: 0;
+  /* line-height: 1.5rem; */
+
 }

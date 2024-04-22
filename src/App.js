@@ -26,6 +26,7 @@ function App() {
       <img src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg" alt="React-Image"></img>
       <Box></Box>
       <nav>
+        <div className='heading'>New Project</div>
         <ul>
           <li className='list'><a className='link'>Home</a></li>
           <li className='list'><a className='link'>About Us</a></li>
