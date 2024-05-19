@@ -22,7 +22,13 @@ function App() {
     //   </header>
     // </div>
     <p>
-      <Greet></Greet>
+      <Greet name="Dipanshu">
+        <div>
+          Have A Nice Expireince
+        </div>
+      </Greet>
+      {/* <Greet name=""></Greet> */}
+      {/* <Greet name=""></Greet> */}
       <img src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg" alt="React-Image"></img>
       <Box></Box>
       <nav>
