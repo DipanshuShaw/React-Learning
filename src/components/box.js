@@ -14,10 +14,17 @@ import React,{Component} from 'react';
 
 //Statefull Class Components
 class Box extends Component{
+    // val = prompt("Enter the value:-")
     render(){
         return(
             <div>
-            <h2>Box Title</h2>
+            <h2>{this.props.value.map(
+                function valueMap(item,i){
+                    return(
+                        "Student" + (i+1) + ": " + item + ((i<3)?", ": "\n")
+                    )
+                }
+            )}</h2>
             <p>Hello This is box content</p>
             </div>
         )
