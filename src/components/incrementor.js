@@ -14,7 +14,12 @@ export class incrementor extends Component {
         // this.state.count = this.state.count + 1;
         this.setState({
             count : this.state.count + 1
-        })
+        }
+        // , () => {
+        //   console.log(this.state.count); //callback function being used get evaluated with set state
+        // }
+      )
+      // console.log(this.state.count);  //normally logging the count get evaluated before set state
     }
     
 
