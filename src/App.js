@@ -4,6 +4,7 @@ import Greet from './components/greet'
 import Box from './components/box';
 import Message from './components/message';
 import Incrementor from './components/incrementor';
+import FunctionClick from './components/functionClick';
 
 function App() {
   Box.defaultProps = {
@@ -30,7 +31,9 @@ function App() {
 
 {/* <Message /> */}
 
-<Incrementor />
+{/* <Incrementor /> */}
+
+<FunctionClick />
 
       {/* <Greet name="Dipanshu">
         <div>
