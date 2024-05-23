@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class incrementor extends Component {
+class incrementor extends Component {
     
     constructor() {
         super()

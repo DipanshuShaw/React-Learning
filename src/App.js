@@ -5,6 +5,7 @@ import Box from './components/box';
 import Message from './components/message';
 import Incrementor from './components/incrementor';
 import FunctionClick from './components/functionClick';
+import Parent from './components/parentChild/Parent';
 
 function App() {
   Box.defaultProps = {
@@ -33,7 +34,9 @@ function App() {
 
 {/* <Incrementor /> */}
 
-<FunctionClick />
+{/* <FunctionClick /> */}
+
+<Parent />
 
       {/* <Greet name="Dipanshu">
         <div>
