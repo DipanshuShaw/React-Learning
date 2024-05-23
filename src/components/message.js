@@ -14,6 +14,7 @@ class message extends Component {
     this.setState({
       message : text
     })
+    // this.change = this.change.bind(this)
   }
 
   render() {
@@ -22,7 +23,11 @@ class message extends Component {
         <h1>
           {this.state.message}
         </h1>
-        <button onClick={()=>this.change()}>
+        <button onClick={
+          ()=>this.change()
+          // this.change.bind(this)
+        // this.change
+          }>
           Click Me
         </button>
       </div>
