@@ -5,7 +5,9 @@ import Box from './components/box';
 import Message from './components/message';
 import Incrementor from './components/incrementor';
 import FunctionClick from './components/functionClick';
+import ConditionalGreet from './components/ConditionalGreet';
 import Parent from './components/parentChild/Parent';
+// import LoggedCheck from './components/LoggedCheck';
 
 function App() {
   Box.defaultProps = {
@@ -36,7 +38,11 @@ function App() {
 
 {/* <FunctionClick /> */}
 
-<Parent />
+{/* <Parent /> */}
+
+{/* <LoggedCheck /> */}
+
+<ConditionalGreet />
 
       {/* <Greet name="Dipanshu">
         <div>
