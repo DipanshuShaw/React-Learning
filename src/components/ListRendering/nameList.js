@@ -20,14 +20,14 @@ function nameList() {
             branch : 'CSE'
         },
         {
-            name : 'Ni-odean',
+            name : 'Ni-odu',
             age : '67',
             branch : '*Unk*'
         }
     ]
     
     
-    const personList = Persons.map(person => <Person person={person} />)
+    const personList = Persons.map(person => <Person personContent={person} />)
   return (
     <div>
         {personList}

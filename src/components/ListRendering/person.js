@@ -1,10 +1,10 @@
 import React from 'react'
 
-function person({person}) {
+function person({personContent}) {
   return (
     <div>
       <h2>
-        I am {person.name}, I am {person.age} years old. My branch is {person.branch}
+        I am {personContent.name}, I am {personContent.age} years old. My branch is {personContent.branch}
       </h2>
     </div>
   )
