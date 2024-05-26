@@ -6,6 +6,7 @@ import Message from './components/message';
 import Incrementor from './components/incrementor';
 import FunctionClick from './components/functionClick';
 import ConditionalGreet from './components/ConditionalGreet';
+import NameList from './components/ListRendering/nameList';
 import Parent from './components/parentChild/Parent';
 // import LoggedCheck from './components/LoggedCheck';
 
@@ -42,7 +43,9 @@ function App() {
 
 {/* <LoggedCheck /> */}
 
-<ConditionalGreet />
+{/* <ConditionalGreet /> */}
+
+<NameList />
 
       {/* <Greet name="Dipanshu">
         <div>
