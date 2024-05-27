@@ -9,6 +9,7 @@ import ConditionalGreet from './components/ConditionalGreet';
 import NameList from './components/ListRendering/nameList';
 import Parent from './components/parentChild/Parent';
 // import LoggedCheck from './components/LoggedCheck';
+import Styling from './components/styling';
 
 function App() {
   Box.defaultProps = {
@@ -45,7 +46,9 @@ function App() {
 
 {/* <ConditionalGreet /> */}
 
-<NameList />
+{/* <NameList /> */}
+
+<Styling />
 
       {/* <Greet name="Dipanshu">
         <div>
