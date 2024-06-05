@@ -11,6 +11,7 @@ import Parent from './components/parentChild/Parent';
 // import LoggedCheck from './components/LoggedCheck';
 import Styling from './components/styling';
 import Form from './components/Form';
+import MainFn from './components/Fragement/MainFn';
 
 function App() {
   // Box.defaultProps = {
@@ -75,7 +76,9 @@ function App() {
 //   );
 
 return(
-<Form />
+  <div>
+    <MainFn />
+  </div>
 );
 
 }
