@@ -76,9 +76,10 @@ function App() {
 //   );
 
 return(
-  <div>
+  //other way to write react.Fragement
+  <>
     <MainFn />
-  </div>
+  </>
 );
 
 }
